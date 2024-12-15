@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Alarm System</title>
+</head>
+<body>
+    <script>
+        let a=prompt("Is the door open?(yes or no)");
+        let b=prompt("Is motion detected?(yes or no)" );
+         if(a=="yes" & b=="no"){
+            console.log("Alarm Triggered")
+         }else  if(b=="yes" & a=="no"){
+            console.log("Alarm Triggered")
+         }else  if(b=="no" & a=="no"){
+            console.log("All Safe")
+         }
+    </script>
+</body>
+</html>

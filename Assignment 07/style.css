@@ -1,0 +1,27 @@
+*{
+    color:#F0BB78 ;
+    background-color: #131010;
+}
+#box{
+    margin-left: auto;
+    margin-right: auto;
+    width: 50vw;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+button{
+    background-color: #543A14;
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+}
+h2{
+    background-color: #543A14;
+}
+a{
+    text-decoration: none;
+}
